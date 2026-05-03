@@ -14,3 +14,4 @@ TERMUX_PKG_EXTRA_CONFIGURE_ARGS="-DSTB_INCLUDE_DIR=$TERMUX__PREFIX__INCLUDE_DIR/
 termux_step_pre_configure() {
 	CXXFLAGS+=" -pthread"
 }
+
